@@ -15,7 +15,7 @@ if __name__ == '__main__':
     
     trainer = L.Trainer(
         accelerator = "gpu",
-        max_epochs = 400,
+        max_epochs = 10,
     )
     
     trainer.fit(indosum_model, datamodule = indosum_pre)
